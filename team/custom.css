@@ -1,0 +1,72 @@
+/* --------------User Image Upload---------------------- */
+
+.avatar-upload {
+    text-align: center;
+    display: inline-block;
+}
+
+.avatar-edit {
+    top: 150px;
+    margin-right: -125px;
+    margin-top: -40px;
+}
+
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+
+.avatar-upload .avatar-edit input+label {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    z-index: 1000000;
+    background: rgb(14, 236, 173);
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload .avatar-edit input+label:hover {
+    background: #757575;
+    border-color: #757575;
+}
+
+.avatar-upload .avatar-edit input+label:after {
+    color: #757575;
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.avatar-upload .avatar-preview {
+    width: 162px;
+    height: 162px;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.avatar-upload .avatar-preview>div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* --------------Profile card---------------------- */
